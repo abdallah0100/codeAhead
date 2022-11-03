@@ -1,13 +1,13 @@
-import Logo from "./Logo";
 import './headerDesign.css';
+import Logo from "./Logo";
+import NavBar from './navbar/NavBar';
 function Header(){
     return(
-        <div className="header-container">
-            <header>
-                <Logo />
-                <img src="/images/profile.png" alt="Profile Icon" className="profilePic"/>
-            </header>
-        </div>
+        <header>
+            <Logo />
+            <NavBar />
+            <img src="/images/profile.png" alt="Profile Icon" className="profilePic"/>
+        </header>
     )
 }
 
