@@ -1,16 +1,40 @@
-#logo{
-    text-decoration: none;   
-    margin-left: 1rem;
-}
-#logo label:hover{
-    cursor: pointer;
-}
+header * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
-.title{
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #535252;
+  }
+  .profilePic{
+    width: 44px;
+    height: 44px;
+    margin-right: -8%;
+    border-radius: 50%;
+  }
+  header a{
+    text-decoration: none;
+  }
+
+  #logo{
+    margin-left: -10%;
+  }
+
+  #logo label{
+    cursor: pointer;
+  }
+
+  .title{
     color: #14279b;
     line-height: 27px;
     font-size: 28px;
     text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
 }
 
 .motto{
@@ -19,16 +43,4 @@
     font-size: 16px;
     font-weight: bold;
     text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.4);
-}
-
-.profilePic{
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    float: right;
-    margin-top: -1.5rem;
-    margin-right: 1rem;
-}
-.profilePic:hover{
-    box-shadow: 0 5px 15px #3d56b2;
 }
