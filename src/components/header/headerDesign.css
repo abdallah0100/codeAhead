@@ -11,12 +11,24 @@ header * {
     padding: 30px 10%;
     background-color: #535252;
   }
-  .profilePic{
+  header img{
     width: 44px;
     height: 44px;
     margin-right: -8%;
     border-radius: 50%;
+    transition: 0.15s;
+    cursor: pointer;
   }
+
+  header img:hover{
+    box-shadow: 0 5px 15px #3d56b2;
+  }
+
+  .glow{
+    box-shadow: 0 5px 15px #3d56b2;
+    cursor: auto;
+  }
+
   header a{
     text-decoration: none;
   }
