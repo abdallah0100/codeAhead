@@ -6,6 +6,11 @@ html,body{
 #container{
     min-height: 100vh;
     position: relative;
+    background-image: url('/public/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #content{
     padding: 1rem;
