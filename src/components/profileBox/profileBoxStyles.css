@@ -1,4 +1,9 @@
-#profile_box{
+@keyframes profile_box_fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.box_style{
     background-color: #A8B0CC;
     width: 12.5rem;
     padding: 1rem;
@@ -6,7 +11,13 @@
     font-size: 12px;
     float: right;
     margin-top: -2.5rem;
-    visibility: hidden;
+    opacity: 0;
+}
+
+.profile_animation{
+    animation-name: profile_box_fade;
+    animation-duration: 1s;
+    opacity: 1;
 }
 
 .user_box_img{
@@ -26,6 +37,7 @@
 #profile_box input{
     border-radius: 5px;
     color: #14279b;
+    background-color: #e6e6e6;
 }
 #passInput, #emailInput{
     width: 8rem;
@@ -40,6 +52,7 @@
     margin-top: 0.4rem;
     margin-left: 5rem;
     width: 3rem;
+    cursor: pointer;
 }
 
 #profile_box p{
