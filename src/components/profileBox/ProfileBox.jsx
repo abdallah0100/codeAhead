@@ -12,7 +12,7 @@ function ProfileBox(){
         const profileImg = document.getElementById('profileImg');
 
         const handleCloseClick = (event)=>{
-            profileBox.style.visibility = 'hidden';
+            profileBox.classList.remove('profile_animation');
             profileImg.classList.remove('glow');
         };
 
@@ -22,7 +22,7 @@ function ProfileBox(){
     });
 
     return(
-        <div id="profile_box">
+        <div id="profile_box" className='box_style' >
             <img src='images/close.png' className='closeBtn' id='close' alt='close' />
             <img src="images/profile.png" className="user_box_img" alt='profile' />
             <hr />

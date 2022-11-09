@@ -10,7 +10,7 @@ function Header(){
 
         const handleProfileClick = (event)=>{
             event.target.classList.add('glow');
-            profileBox.style.visibility = 'visible';
+            profileBox.classList.add('profile_animation');
         };
 
         profile.addEventListener('click', handleProfileClick);
