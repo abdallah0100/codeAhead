@@ -23,6 +23,6 @@ html,body{
     height: 9rem;
     bottom: 0;
     text-align: center;
-    background: #535252;
+    background-image: linear-gradient(to top right, rgba(0,0,26,255), rgba(1,137,199,255));
     box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.25), -2px -2px 2px rgba(0, 0, 0, 0.25);
 }
