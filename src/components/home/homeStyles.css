@@ -55,3 +55,41 @@
 #about p{
     font-size: 24px;
 }
+#other_topic{
+    visibility: hidden;
+}
+#contact{
+    padding-bottom: 5rem;
+    font-size: 18px;
+}
+.text_input{
+    border-radius: 5px;
+    height: 20px;
+    background-color: #e6e6e6;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+}
+#contact_msg{
+    height: 10rem;
+    width: 30rem;
+    border-radius: 15px;
+}
+
+#contact_msg_label{
+    padding: 0.5rem;
+}
+#topics_title{
+    padding: 1rem;
+}
+.contact_submit{
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    color: #14279b;
+    height: 2rem;
+    width: 5rem;
+    font-size: 18px;
+    cursor: pointer;
+}
+.contact_submit:hover{
+    box-shadow: inset 0 0 10px #000000;
+}

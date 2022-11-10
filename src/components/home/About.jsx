@@ -2,6 +2,7 @@ function About(){
     return(
         <div className="content_block" id='about'>
             <h1>About us</h1>
+            <hr />
             <p>CodeAhead is a platform that is built to be a base for all developers of all levels, enabling them to connect to each other
 in a mutual forum that is home for both experienced developers, juniors or even people that are intersted in this field alike.<br /> <br />
 
