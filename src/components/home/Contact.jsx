@@ -1,10 +1,15 @@
 function Contact(){
+
+    const handleOtherSelect = (e)=>{
+        document.getElementById('other_topic').style.visibility = e.target.id === 'other' ? 'visible' : 'hidden';
+    }
+
     return(
         <div className="content_block" id='contact'>
             <h1>Contact us</h1>
             <hr />
             <p>We are pleased to hear from You regarding any matter!</p>
-            <form>
+            <form  onChange={handleOtherSelect}>
                 <div className="contact_names">
                     <label>First Name:</label>
                     <input type='text' placeholder="Abdallah" className="text_input"></input>
@@ -18,9 +23,9 @@ function Contact(){
                 <label htmlFor="suggestion">Suggestion |</label>
                 <input type='radio' value='Report' id="report" name="topics"></input>
                 <label htmlFor="report">Report a bug |</label>
-                <input type='radio' value='Other' id="other" name="topics"></input>
-                <label htmlFor="business">Business |</label>
                 <input type='radio' value='Business' id="business" name="topics"></input>
+                <label htmlFor="business">Business |</label>
+                <input type='radio' value='Other' id="other" name="topics"></input>
                 <label htmlFor="other">Other</label>
                 <div id="other_topic">
                     <label>Please specify the topic: </label>
