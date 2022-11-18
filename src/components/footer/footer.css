@@ -30,6 +30,7 @@
     line-height: 5px;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
     font-size: 26px;
+    text-shadow: 0px 0.5px 15px #e6e6e6;
 }
 .copyRights{
     font-size: 17px;

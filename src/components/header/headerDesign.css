@@ -5,10 +5,11 @@ header * {
   }
 
   header {
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
     background-image: linear-gradient(to bottom right, rgba(0,0,26,255), rgba(1,137,199,255));
   }
   header img{
