@@ -4,6 +4,10 @@ function Contact(){
         document.getElementById('other_topic').style.visibility = e.target.id === 'other' ? 'visible' : 'hidden';
     }
 
+    const handleSend = (e)=>{
+        e.preventDefault();
+    }
+
     return(
         <div className="content_block" id='contact'>
             <h1>Contact us</h1>
@@ -35,7 +39,7 @@ function Contact(){
                 <label htmlFor="contact_msg" id="contact_msg_label">Message:</label>
                 <input type='text' placeholder="message..." className="text_input" id="contact_msg"></input><br />
 
-                <input type='submit' value='Send' className="contact_submit"></input>
+                <input type='submit' value='Send' className="contact_submit" onClick={handleSend}></input>
             </form>
 
             <p>Or send us an e-mail at <a href="mailto:contact@codeahead.com">contact@codeahead.com</a>.</p>

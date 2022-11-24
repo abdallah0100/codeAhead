@@ -4,13 +4,15 @@
     text-align: center;
     margin-bottom: 3rem;
     box-shadow: 2px 2px 2px 2px #535252;
+    border-radius: 0px;
     
-    transform: translateY(50px);
+    /* transform: translateY(50px); */
     opacity: 0;
-    transition: 1s all ease;
+    transition: 1s all ease-in-out;
 }
 .content_block.active{
-    transform: translateY(0);
+    /* transform: translateY(0); */
+    border-radius: 10px;
     opacity: 1;
   }
 
