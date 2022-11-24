@@ -1,15 +1,16 @@
 import './main.css';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header'
-import Landing from './components/Landing';
-import ProfileBox from './components/profileBox/ProfileBox'
+import ProfileBox from './components/user/profileBox/ProfileBox'
+import Router from './components/Router';
+
 function App() {
   return (
     <div id='container'>
       <Header />
       <div id='content'>
         <ProfileBox />
-        <Landing />
+        <Router />
       </div>
       <Footer />
     </div>
