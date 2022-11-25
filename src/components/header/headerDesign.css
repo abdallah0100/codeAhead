@@ -1,10 +1,10 @@
-header * {
+.mainHeader * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
 
-  header {
+  .mainHeader {
     top: 0;
     display: flex;
     justify-content: space-between;
@@ -12,7 +12,7 @@ header * {
     padding: 20px 10%;
     background-image: linear-gradient(to bottom right, rgba(0,0,26,255), rgba(1,137,199,255));
   }
-  header img{
+  .mainHeader img{
     width: 44px;
     height: 44px;
     margin-right: -8%;
@@ -21,7 +21,7 @@ header * {
     cursor: pointer;
   }
 
-  header img:hover{
+  .mainHeader img:hover{
     box-shadow: 0 5px 15px #e6e6e6;
   }
 
@@ -30,7 +30,7 @@ header * {
     cursor: auto;
   }
 
-  header a{
+  .mainHeader a{
     text-decoration: none;
   }
 

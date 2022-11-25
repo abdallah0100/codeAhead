@@ -17,7 +17,7 @@ function Header(){
     });
 
     return(
-        <header>
+        <header className='mainHeader'>
             <Logo />
             <NavBar />
             <img src="/images/profile.png" alt="Profile Icon" className="profilePic" id='profileImg' />
