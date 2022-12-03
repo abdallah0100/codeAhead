@@ -10,9 +10,9 @@ function Header(){
             <Container fluid className='nav_container'>
 
                 <Nav className='me-auto'>
-                    <Nav.Link href='#about'>About</Nav.Link>
-                    <Nav.Link href='#'>Forum</Nav.Link>
-                    <Nav.Link href='#contact'>Contact</Nav.Link>
+                    <Nav.Link href='/#about'>About</Nav.Link>
+                    <Nav.Link href='/#'>Forum</Nav.Link>
+                    <Nav.Link href='/#contact'>Contact</Nav.Link>
                 </Nav>
                 <Profile />
             </Container>

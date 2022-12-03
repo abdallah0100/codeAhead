@@ -11,7 +11,7 @@ function App() {
     <Container fluid="true" className='main_container'>
       <Header />
       <Container className='content_section'>
-        <h1>Content</h1>
+        <Router />
       </Container>
       <Footer />
     </Container>

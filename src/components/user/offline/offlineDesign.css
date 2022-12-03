@@ -6,3 +6,10 @@
 #register_submit, #login_button{
     margin-right: 3rem;
 }
+.recovery_container{
+    margin-top: 2rem;
+    background-color: #212529;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+}
