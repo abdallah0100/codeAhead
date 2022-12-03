@@ -1,0 +1,8 @@
+.userPanel_buttons{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+#register_submit, #login_button{
+    margin-right: 3rem;
+}

@@ -10,7 +10,7 @@
     box-shadow: 0 5px 15px #e6e6e6;
   }
 
-  .glow{
-    box-shadow: 0 5px 15px #e6e6e6;
-    cursor: auto;
+  .logo{
+    font-family: Lucida Calligraphy;
+    font-weight: bold;
   }

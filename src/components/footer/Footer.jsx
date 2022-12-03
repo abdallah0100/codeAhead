@@ -4,7 +4,7 @@ function Footer(){
     return(
         <Container fluid='true' className='footer_container p-3'>
             <Row>
-                <h3 className='mb-1'>CodeAhead</h3>
+                <h3 className='mb-1 logo'>CodeAhead</h3>
             </Row>
             <Row>
                 <p className='visit_label'>Visit us at:</p>
