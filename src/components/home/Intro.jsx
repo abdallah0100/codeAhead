@@ -1,14 +1,14 @@
-function Intro(){
-    
+import { Container, Button } from 'react-bootstrap';
+function Intro(){   
     return(
-    <div className="content_block" id="home">
-        <p className="welcome_msg">Welcome to <label className="website_name">CodeAhead</label>, <br />
-        We're excited for you to join our<br />
-        community of developers.</p>
-        <a href="/user?register"><button className="joinUs_btn">Join us now!</button></a>
-        <p className="welcome_msg register_msg">Already registered? click <a href="/#">here</a> to log in</p>
-
-    </div>);
+        <Container className='intro_container landing_content' fluid="true" id='home'>
+            <p>Welcome to <label className='logo'>CodeAhead</label>, <br />
+            We're excited for you to join our<br />
+            community of developers.</p>
+            <Button>Join us now!</Button>
+            <p>Already registered? click <a href="/#">here</a> to log in</p>
+        </Container>
+);
 }
 
 export default Intro;

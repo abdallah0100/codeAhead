@@ -1,15 +1,16 @@
-import './home/homeStyles.css';
+import { Container } from 'react-bootstrap';
 import About from './home/About';
 import Intro from './home/Intro';
+import './home/homeStyles.css'
 import Contact from './home/Contact';
-import React from 'react';
 
 function Landing(){
     return(
-    <div>
-        <Intro />
-        <About />
-        <Contact />
-    </div>);
+        <Container fluid='true' className='landing_container'>
+            <Intro />
+            <About />
+            <Contact />
+        </Container>
+    );
 }
 export default Landing;

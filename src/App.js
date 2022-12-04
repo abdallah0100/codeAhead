@@ -10,7 +10,7 @@ function App() {
   return (
     <Container fluid="true" className='main_container'>
       <Header />
-      <Container className='content_section'>
+      <Container className='content_section' fluid='true'>
         <Router />
       </Container>
       <Footer />
