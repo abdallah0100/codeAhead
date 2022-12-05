@@ -33,10 +33,6 @@
     text-align: left;
 }
 
-#other_text{
-    visibility: hidden;
-}
-
 .contact_buttons{
     padding-top: 1rem;
     text-align: center;
@@ -45,4 +41,11 @@
 
 #contact_send{
     margin-right: 3rem;
+}
+.contact_msg{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#messageContent{
+    height: 10rem;
 }
