@@ -13,7 +13,17 @@
     margin-bottom: 5rem !important;
     border-radius: 10px;
     padding: 1rem;
+
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s all ease-in-out;
 }
+
+.landing_content.active{
+    transform: translateY(0);
+    border-radius: 10px;
+    opacity: 1;
+  }
 
 #about_cardImg{
     width: fit-content;
