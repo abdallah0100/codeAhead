@@ -1,5 +1,5 @@
 function reveal(){
-    var reveals = document.querySelectorAll(".content_block");
+    var reveals = document.querySelectorAll(".landing_content");
   
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
@@ -15,5 +15,5 @@ function reveal(){
 }
 
 
-
+// eslint-disable-next-line
 export default {reveal: reveal};
