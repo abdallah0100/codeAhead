@@ -1,105 +1,51 @@
-.content_block{
-    padding: 1rem;
-    background-image: linear-gradient(to top right, rgba(0,0,26,255), rgba(1,137,199,255));
-    text-align: center;
-    margin-bottom: 3rem;
-    box-shadow: 2px 2px 2px 2px #535252;
-    border-radius: 0px;
+.intro_container{
+    height: 100vh;
     
-    /* transform: translateY(50px); */
-    opacity: 0;
-    transition: 1s all ease-in-out;
+    padding-top: 9rem !important;
+    font-size: 28px;
+    border-radius: 0px !important;
 }
-.content_block.active{
-    /* transform: translateY(0); */
+
+.landing_content{
+    color: #e6e6e6;
+    background-color: #212529fa;
+    text-align: center;
+    margin-bottom: 5rem !important;
     border-radius: 10px;
-    opacity: 1;
-  }
-
-#home {
-    height: 80vh;
-}
-
-.welcome_msg{
-    font-size: 32px;
-    line-height: 27px;
-    text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.4);
-
-    margin-left: 13rem;
-    margin-top: 8rem;
-}
-.website_name{
-    color: #14279b;
-    font-weight: bold;
-    text-shadow: 0px 0.5px 15px #e6e6e6;
-}
-
-.joinUs_btn{
-    background: #3d56b2;
-    border: 1px solid #000000;
-    text-shadow: 0px 6px 6px rgba(0, 0, 0, 2);
-    box-shadow: 3px 4px 4px rgba(0, 0, 0, 1.5);
-    width: 228px;
-    height: 61px;
-    box-sizing: border-box;
-    font-size: 22px;
-    line-height: 27px;
-    border-radius: 5px;
-
-    cursor: pointer;
-}
-
-.joinUs_btn:hover{
-    box-shadow: inset 0 0 10px #000000;
-}
-.register_msg{
-    margin-right: 11rem;
-    margin-top: 2rem;
-}
-.register_msg a{
-    text-decoration: none;
-    color: #14279b;
-    text-shadow: 0px 0.5px 15px #e6e6e6;
-}
-
-#about p{
-    font-size: 24px;
-}
-#other_topic{
-    visibility: hidden;
-}
-#contact{
-    padding-bottom: 5rem;
-    font-size: 18px;
-}
-.text_input{
-    border-radius: 5px;
-    height: 20px;
-    background-color: #e6e6e6;
-    margin-right: 2rem;
-    margin-bottom: 1.5rem;
-}
-#contact_msg{
-    height: 10rem;
-    width: 30rem;
-    border-radius: 15px;
-}
-
-#contact_msg_label{
-    padding: 0.5rem;
-}
-#topics_title{
     padding: 1rem;
 }
-.contact_submit{
-    background-color: #e6e6e6;
-    border-radius: 5px;
-    color: #14279b;
-    height: 2rem;
-    width: 5rem;
-    font-size: 18px;
-    cursor: pointer;
+
+#about_cardImg{
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
 }
-.contact_submit:hover{
-    box-shadow: inset 0 0 10px #000000;
+
+.card-title{
+    float: left;
+    font-size: 34px;
+}
+
+.card-text{
+    font-size: 18px;
+}
+.contact_container{
+    text-align: left;
+}
+
+.contact_buttons{
+    padding-top: 1rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#contact_send{
+    margin-right: 3rem;
+}
+.contact_msg{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#messageContent{
+    height: 10rem;
 }

@@ -1,13 +1,13 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Landing from './Landing';
-import User from './user/User';
+import Recovery from './user/offline/Recovery';
 
 function Router(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Landing />}></Route>
-                <Route path='/user' element={<User />}></Route>
+                <Route path='/' element={<Landing />} />
+                <Route path='/account_recovery' element={<Recovery />}/>
             </Routes>
         </BrowserRouter>
     );

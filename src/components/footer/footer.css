@@ -1,42 +1,46 @@
-.socials img{
+.footer_container{
+    bottom: 0;
+    position: absolute;
+    background-color: #212529;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.row p{
+    text-align: center;
+}
+
+.footer_container img{
     width: 35px;
     height: 35px;
-    margin-right: 5rem;
-    margin-top: 0.5rem;
     transition: 0.5s;
 }
-.socials img:hover{
+
+.visit_label{
+    margin-top: -2rem;
+}
+.footer_container .social_icons{
+    text-align: center;
+}
+
+.twitter{
+    margin-right: 4rem;
+}
+.facebook{
+    margin-left: 4rem;
+}
+
+.social_icons img:hover{
     cursor: pointer;
     border-radius: 50%;
 }
-#twitter:hover{
+.twitter:hover{
     box-shadow: 0 5px 15px rgb(37, 150, 190);
 }
-#instagram:hover{
-    border-radius: 25%;
+.instagram:hover{
+    border-radius: 5%;
     box-shadow: 0 5px 15px #ea0a29;
 }
-#facebook:hover{
+.facebook:hover{
     box-shadow: 0 5px 15px #058ef1;
-}
-
-.socials label{
-    margin-right: 5rem;
-    font-size: 18px;
-}
-.socials h2{
-    float: left;
-    color: #14279b;
-    line-height: 5px;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-    font-size: 26px;
-    text-shadow: 0px 0.5px 15px #e6e6e6;
-}
-.copyRights{
-    font-size: 17px;
-}
-.copyRights p{
-    margin-left: 2rem;
-    margin-top: 1.2rem;
-    line-height: 2px;
 }
