@@ -22,7 +22,7 @@ function Signup(props){
                     <Form.Control type='password' placeholder='*********' />
                 </Form.Group>
                 <Form.Group className='userPanel_buttons'>
-                    <Button id='register_submit' variant='success'>Submit</Button>
+                    <Button type='submit' id='register_submit' variant='success'>Submit</Button>
                     <Button id='userPanel_cancel' variant='secondary' onClick={props.handleHideModal} >Cancel</Button>
                 </Form.Group>
             </Form>

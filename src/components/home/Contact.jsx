@@ -44,7 +44,7 @@ function Contact(){
                     <Form.Control as="textarea" placeholder="message content" />
                 </FloatingLabel>
                 <Form.Group className="contact_buttons">
-                    <Button variant='success' id='contact_send'>Send</Button>
+                    <Button type='submit' variant='success' id='contact_send'>Send</Button>
                     <Button variant='secondary' onClick={showModal} >Reset</Button>
                 </Form.Group>
             </Form>

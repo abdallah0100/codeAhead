@@ -14,7 +14,7 @@ function Recovery(){
                     <Form.Control type='email' placeholder='example@domain.com' />
                 </Form.Group>
                 <Form.Group className='userPanel_buttons'>
-                    <Button id='register_submit' variant='success'>Continue</Button>
+                    <Button type='submit' id='register_submit' variant='success'>Continue</Button>
                 </Form.Group>
             </Form>
         </Container>
