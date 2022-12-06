@@ -6,20 +6,20 @@ function Signup(props){
             <Form>
                 <Form.Group>
                     <Form.Label>Username</Form.Label>
-                    <Form.Control type='text' placeholder='Abdallah0100' />
+                    <Form.Control type='text' placeholder='Abdallah0100' required />
                     <Form.Text className='text-muted'>This will be the name You're known as.</Form.Text>
                 </Form.Group>
                 <Form.Group>
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control type='email' placeholder='example@domain.com'/>
+                    <Form.Control type='email' placeholder='example@domain.com' required />
                     <Form.Label>Confirm email</Form.Label>
-                    <Form.Control type='email' placeholder='example@domain.com' />
+                    <Form.Control type='email' placeholder='example@domain.com' required />
                 </Form.Group>
                 <Form.Group>
                     <Form.Label>Password</Form.Label>
-                    <Form.Control type='password' placeholder='*********' />
+                    <Form.Control type='password' placeholder='*********' required />
                     <Form.Label>Confirm password</Form.Label>
-                    <Form.Control type='password' placeholder='*********' />
+                    <Form.Control type='password' placeholder='*********' required />
                 </Form.Group>
                 <Form.Group className='userPanel_buttons'>
                     <Button type='submit' id='register_submit' variant='success'>Submit</Button>

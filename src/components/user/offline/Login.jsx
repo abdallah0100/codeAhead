@@ -6,14 +6,14 @@ function Login(props){
             <Form>
                 <Form.Group>
                     <Form.Label>Username</Form.Label>
-                    <Form.Control type='text' />
+                    <Form.Control type='text' required/>
                 </Form.Group>
                 <Form.Group>
                     <Form.Label>Password</Form.Label>
-                    <Form.Control type='password' />
+                    <Form.Control type='password' required />
                 </Form.Group>
                 <Form.Group className="userPanel_buttons">
-                    <Button variant='success' id="login_button">Login</Button>
+                    <Button type="submit" variant='success' id="login_button">Login</Button>
                     <Button variant='secondary' onClick={props.handleHideModal} >Cancel</Button>
                 </Form.Group>
                 <Form.Group className="p-2">

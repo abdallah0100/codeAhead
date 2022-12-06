@@ -9,9 +9,9 @@ function Recovery(){
                 <Form.Text>Fill in the information below to continue.</Form.Text>
                 <Form.Group>
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control type='email' placeholder='example@domain.com'/>
+                    <Form.Control type='email' placeholder='example@domain.com' required />
                     <Form.Label>Confirm email</Form.Label>
-                    <Form.Control type='email' placeholder='example@domain.com' />
+                    <Form.Control type='email' placeholder='example@domain.com' required />
                 </Form.Group>
                 <Form.Group className='userPanel_buttons'>
                     <Button type='submit' id='register_submit' variant='success'>Continue</Button>
