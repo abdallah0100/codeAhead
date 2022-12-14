@@ -2,11 +2,17 @@ import React from "react";
 import { Modal, Tabs, Tab } from "react-bootstrap";
 import Signup from './offline/Signup';
 import Login from './offline/Login';
+import './profileStyles.css';
 
 function Profile(){
 
     const [showModal, updateModalState] = React.useState(false);
-    const handleHideModal = ()=> updateModalState(false);
+    const [errorMsg, updateErrorMsg] = React.useState(true);
+
+    const handleHideModal = ()=> {
+        updateErrorMsg(true);
+        updateModalState(false);
+    };
     const handleShowModal = (e)=> updateModalState(true);
 
     React.useEffect(()=>{
@@ -27,10 +33,13 @@ function Profile(){
                             <Login handleHideModal={handleHideModal} />
                         </Tab>
                         <Tab eventKey='register' title="Register">
-                            <Signup handleHideModal={handleHideModal} />
+                            <Signup handleHideModal={handleHideModal} updateErrorMsg={updateErrorMsg} />
                         </Tab>
                     </Tabs>
                 </Modal.Body>
+                <Modal.Footer>
+                    <Modal.Dialog hidden={errorMsg} className="error_msg"><p id="error_text">Error Msg</p></Modal.Dialog>
+                </Modal.Footer>
             </Modal>
         </>
     );

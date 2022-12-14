@@ -1,0 +1,6 @@
+.error_msg{
+    color: red;
+}
+.error_msg .modal-content{
+    padding: 0.25rem;
+}
