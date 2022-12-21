@@ -27,13 +27,5 @@ function validateData(){
     }
     return result;
 }
-
-function send_Register(updateErrorMsg){
-    const validation = validateData();
-    if (validation.resultCode !== 0){
-        document.getElementById('error_text').textContent = validation.msg;
-        updateErrorMsg(false);
-    }
-}
 // eslint-disable-next-line
-export default {send_Register};
+export default {validateData, getRegisterData};

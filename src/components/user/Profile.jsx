@@ -30,7 +30,7 @@ function Profile(){
                 <Modal.Body>
                     <Tabs defaultActiveKey='login' className='mb-3 flex-row' justify>
                         <Tab eventKey="login" title='Login'>
-                            <Login handleHideModal={handleHideModal} />
+                            <Login handleHideModal={handleHideModal} updateErrorMsg={updateErrorMsg} />
                         </Tab>
                         <Tab eventKey='register' title="Register">
                             <Signup handleHideModal={handleHideModal} updateErrorMsg={updateErrorMsg} />
