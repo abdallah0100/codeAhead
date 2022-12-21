@@ -1,11 +1,11 @@
 import { Button, Form } from 'react-bootstrap';
-import Authentication from '../../../utils/user_utils/Authentication';
+import {send_Register} from '../../../utils/user_utils/RequestHandler';
 import './offlineDesign.css'
 function Signup(props){
 
     const handleRegister = (e)=> {
         e.preventDefault();
-        Authentication.send_Register(props.updateErrorMsg)
+        send_Register(props.updateErrorMsg);
     };
 
     return (
