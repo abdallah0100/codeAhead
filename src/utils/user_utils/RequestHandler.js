@@ -28,8 +28,10 @@ function send_Login(updateErrorMsg){
     const password = document.getElementById('login_pass').value;
     const data = {username: user, password: password};
 
-    axios.post("http://localhost:4000/api/login", data).then(result =>
-    console.log(result)).catch(err=>{
+    axios.post("http://localhost:4000/api/login", data).then(result =>{
+        window.localStorage.setItem("name", result.data.name);
+        window.localStorage.setItem("access_token", result.data.access_token);
+    }).catch(err=>{
         document.getElementById('error_text').textContent = "* Invalid username or password.";
         updateErrorMsg(false);
     })
