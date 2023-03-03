@@ -1,7 +1,6 @@
 import UserAssistant from "./UserAssistant";
 import axios from "axios";
 
-
 function send_Register(updateErrorMsg){
     const validation = UserAssistant.validateData();
     const errorMsg = document.getElementById('error_text');

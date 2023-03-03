@@ -27,5 +27,11 @@ function validateData(){
     }
     return result;
 }
+
+
+const isLoggedIn = ()=>{
+    return localStorage.getItem("name") && localStorage.getItem("access_token");
+}
+
 // eslint-disable-next-line
-export default {validateData, getRegisterData};
+export default {validateData, getRegisterData, isLoggedIn};

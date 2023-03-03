@@ -1,0 +1,16 @@
+.profileMenu{
+    margin-top: 4rem;
+    bottom: 20rem;
+    width: 5rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.profile_menu_footer{
+    position: relative;
+    padding-top: 10.5rem;
+    text-align: center;
+}
+
+#menu_profile_pic{
+    width: 100px;
+}
