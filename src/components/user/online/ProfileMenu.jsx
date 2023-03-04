@@ -1,5 +1,5 @@
 import React from "react";
-import { Offcanvas, Button } from "react-bootstrap";
+import { Offcanvas, Button, Container } from "react-bootstrap";
 import './onlineStyles.css';
 
 function ProfileMenu(props){
