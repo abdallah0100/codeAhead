@@ -1,16 +1,25 @@
 .profileMenu{
     margin-top: 4rem;
-    bottom: 20rem;
+    bottom: 21rem;
     width: 5rem;
     border-radius: 10px 0 0 10px;
 }
-
+.profileMenu a{
+    text-decoration: none;
+    color: black;
+}
 .profile_menu_footer{
     position: relative;
-    padding-top: 10.5rem;
+    padding-top: 0.4rem;
     text-align: center;
 }
 
 #menu_profile_pic{
     width: 100px;
+}
+
+.profile_menu_icons{
+    width: 35px;
+    height: 35px;
+    margin-right: 0.5rem;
 }

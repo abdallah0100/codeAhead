@@ -15,7 +15,10 @@ function ProfileMenu(props){
             <Offcanvas.Body>
                 <img src='/images/user/profile.png' id="menu_profile_pic" alt="user_pic" />
                 <hr />
-                This will be the profile body!!
+                <img src="/images/user/profilePage.png" alt="profile_pg" className="profile_menu_icons" />
+                <a href="#">Profile Page</a> <br /> <br />
+                <img src="/images/user/profile_settings.png" alt="profile_pg" className="profile_menu_icons" />
+                <a href="#">Settings</a>
 
                 <div className="profile_menu_footer">
                     <hr />
