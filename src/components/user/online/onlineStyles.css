@@ -23,3 +23,14 @@
     height: 35px;
     margin-right: 0.5rem;
 }
+
+#user_wallpaper{
+    height: 9rem;
+    width: 100%;    
+}
+
+#user_profile_pic{
+    width: 100px;
+    position: relative;
+    top: -30px;
+}
