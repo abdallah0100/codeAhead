@@ -4,6 +4,7 @@ import Landing from './Landing';
 import Recovery from './user/offline/Recovery';
 import ProfilePage from './user/online/ProfilePage';
 import AccessError from './AcessError';
+import Index from './forum/Index';
 
 function Router(){
     let access = false;
@@ -18,6 +19,7 @@ function Router(){
                 <Route path='/' element={<Landing />} />
                 <Route path='/account_recovery' element={access ? <Landing /> : <Recovery />}/>
                 <Route path='/profile' element={ access ? <ProfilePage /> : <AccessError /> } />
+                <Route path='/forum' element={<Index logged={access} />} />
             </Routes>
         </BrowserRouter>
     );
