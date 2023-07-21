@@ -1,5 +1,5 @@
 import React from "react";
-import { Offcanvas, Button, Container } from "react-bootstrap";
+import { Offcanvas, Button } from "react-bootstrap";
 import './onlineStyles.css';
 
 function ProfileMenu(props){
@@ -16,7 +16,7 @@ function ProfileMenu(props){
                 <img src='/images/user/profile.png' id="menu_profile_pic" alt="user_pic" />
                 <hr />
                 <img src="/images/user/profilePage.png" alt="profile_pg" className="profile_menu_icons" />
-                <a href="#">Profile Page</a> <br /> <br />
+                <a href="/profile">Profile Page</a> <br /> <br />
                 <img src="/images/user/profile_settings.png" alt="profile_pg" className="profile_menu_icons" />
                 <a href="#">Settings</a>
 
