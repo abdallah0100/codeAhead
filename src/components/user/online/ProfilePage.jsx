@@ -18,7 +18,7 @@ function ProfilePage(){
             <Card style={{ width: '30rem', margin: '2rem 0 0 0' }}>
                 <Card.Header><q><b>About</b></q></Card.Header>
                 <Card.Body>
-                    asdasdasd
+                    Introduce yourself, add a slogan or anything to tell others about yourself.
                 </Card.Body>
             </Card>
         </Card.Body>
