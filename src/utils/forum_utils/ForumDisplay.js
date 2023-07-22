@@ -11,9 +11,11 @@ function getCategories(args){
     }
     ).catch(err => err);
 }
-let data;
-function getSubCategories(id){
-    return axios.post("http://localhost:4000/api/fetchSubCategory", {parentId: id}).then(result => result.data)
+
+function getSubCategories(args){
+    return axios.post("http://localhost:4000/api/fetchSubCategory", {parentId: args.catId}).then(result => {
+        args.updateSubs(result.data);
+    })
     .catch(err => err);
 }
 
