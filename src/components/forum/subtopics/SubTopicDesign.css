@@ -1,0 +1,22 @@
+.subTopic a{
+    text-decoration: none;
+}
+
+.subTopic{
+    border-color: #1E5067;
+    border-style: hidden hidden solid hidden;
+    border-width: 2px;
+    padding-bottom: 0.5rem;
+}
+
+.subTopic h6{
+    margin-top: -5px !important;
+}
+
+.catContainer{
+    min-height: 50vh;
+}
+
+#newThreadBtn{
+    width: 6.8rem;
+}

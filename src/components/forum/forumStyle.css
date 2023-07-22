@@ -1,0 +1,27 @@
+.forum_Container{
+    background-color: #212529fa;
+    color: white;
+    margin-top: 4rem;
+}
+
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.ThickBorder{
+    border-color: #1E5067;
+    border-style: solid solid solid hidden;
+    border-width: 4px;
+    border-radius: 4px;
+    color: #2c80a7;
+}
+.ThickBorder h6{
+    margin-top: -0.7rem;
+    color: #1E5067;
+}
+
+.category{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}

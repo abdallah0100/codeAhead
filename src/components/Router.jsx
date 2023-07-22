@@ -4,12 +4,16 @@ import Landing from './Landing';
 import Recovery from './user/offline/Recovery';
 import ProfilePage from './user/online/ProfilePage';
 import AccessError from './AcessError';
+import Index from './forum/Index';
+import TopicPage from './forum/subtopics/TopicPage';
+import CreateThread from './forum/subtopics/thread/CreateThread';
 
 function Router(){
-    let access = false;
+    
+    const [access, updateAccess] = React.useState(false);
 
     React.useEffect(()=>{
-        access = localStorage.getItem("access_token") != null;
+        updateAccess(localStorage.getItem("access_token") != null);
     });
 
     return(
@@ -18,6 +22,9 @@ function Router(){
                 <Route path='/' element={<Landing />} />
                 <Route path='/account_recovery' element={access ? <Landing /> : <Recovery />}/>
                 <Route path='/profile' element={ access ? <ProfilePage /> : <AccessError /> } />
+                <Route path='/forum' element={<Index logged={access} />} />
+                <Route path='/forum/topic' element={<TopicPage />}/>
+                <Route path='/forum/topic/create' element={access ? <CreateThread /> : <AccessError />} />
             </Routes>
         </BrowserRouter>
     );
