@@ -1,0 +1,10 @@
+.formContainer{
+    background-color: #212529fa;
+    color: white;
+    margin-top: 4rem;
+    min-height: 25rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+    align-content: center;
+}

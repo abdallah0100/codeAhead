@@ -13,7 +13,9 @@ function SubTopic(props){
 
     return (<>
             {subCats.map(sub=> 
-                <Row className="subTopic" key={sub.name}><a href="/forum/#">{sub.name}</a></Row>)}
+                <Row className="subTopic" key={sub.name}><a href={"/forum/topic?id="+sub.id}>{sub.name}</a>
+                    <h6>{sub.description}</h6>
+                </Row>)}
         </>
         );
 }

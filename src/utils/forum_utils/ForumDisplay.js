@@ -19,4 +19,11 @@ function getSubCategories(args){
     .catch(err => err);
 }
 
-export {getCategories, getSubCategories}
+function getCatNameById(args){
+    return axios.post("http://localhost:4000/api/fetchCatName", {id: args.id})
+    .then(result=> {
+        args.updateName(result.data.name);
+    }).catch(err => err);
+}
+
+export {getCategories, getSubCategories, getCatNameById}
