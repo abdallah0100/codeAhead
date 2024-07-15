@@ -2,6 +2,11 @@
     text-decoration: none;
 }
 
+.thread a{
+    text-decoration: none;
+    font-size: 24px;
+}
+
 .subTopic{
     border-color: #1E5067;
     border-style: hidden hidden solid hidden;

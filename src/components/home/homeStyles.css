@@ -59,3 +59,7 @@
 #messageContent{
     height: 10rem;
 }
+
+.modal_buttons{
+    justify-content: center !important;
+}

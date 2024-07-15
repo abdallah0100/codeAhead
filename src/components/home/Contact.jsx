@@ -58,7 +58,7 @@ function Contact(){
                     <Modal.Title>Are You sure you wish to reset ?</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>This action can not be undone once confirmed</Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className="modal_buttons">
                     <Button variant="danger" onClick={handleModalConfirm}>Confirm</Button>
                     <Button variant="secondary" onClick={hideModal}>Cancel</Button>
                 </Modal.Footer>

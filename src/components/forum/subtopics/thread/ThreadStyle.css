@@ -8,3 +8,11 @@
     text-align: center;
     align-content: center;
 }
+
+.modal_buttons{
+    justify-content: center !important;
+}
+
+#threadContent{
+    height: 10rem;
+}
