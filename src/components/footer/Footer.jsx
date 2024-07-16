@@ -18,7 +18,7 @@ function Footer(){
                     </div>
             </Row>
             <hr />
-            <Row><p>© 2022 CodeAhead - <a href="#author">Abdallah Aburomi</a><br />Contact us: info@codeahead.com</p></Row>
+            <Row><p>© 2022 CodeAhead - <a href="/author">Abdallah Aburomi</a><br />Contact us: info@codeahead.com</p></Row>
         </Container>
     );
 }
