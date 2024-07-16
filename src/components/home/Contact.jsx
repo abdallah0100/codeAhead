@@ -38,10 +38,10 @@ function Contact(){
                 </Form.Group>
                 <Form.Group onChange={handleRadioChange}><br />
                     <Form.Label>Topic</Form.Label><br />
-                    <Form.Check type="radio" label="suggestion" name="contact_topic" inline />
-                    <Form.Check type="radio" label="Report a bug" name="contact_topic" inline />
+                    <Form.Check type="radio" label="Suggestion" name="contact_topic" inline />
+                    <Form.Check type="radio" label="Report a Bug" name="contact_topic" inline />
                     <Form.Check type="radio" label="Business" name="contact_topic" inline />
-                    <Form.Check type="radio" label="other" name="contact_topic" id="other_topic" inline />
+                    <Form.Check type="radio" label="Other" name="contact_topic" id="other_topic" inline />
                     <Form.Control type="text" id='other_text' placeholder="Topic specification" hidden={hideOther} required />
                 </Form.Group><br /><br />
                 <FloatingLabel label="Contact message" className="mb-3 contact_msg" controlId="messageContent">
