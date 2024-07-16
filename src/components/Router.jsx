@@ -8,6 +8,7 @@ import Index from './forum/Index';
 import TopicPage from './forum/subtopics/TopicPage';
 import CreateThread from './forum/subtopics/thread/CreateThread';
 import ShowThread from './forum/subtopics/thread/ShowThread';
+import Author from './home/Author';
 
 function Router(){
     
@@ -15,12 +16,13 @@ function Router(){
 
     React.useEffect(()=>{
         updateAccess(localStorage.getItem("access_token") != null);
-    });
+    }, []);
 
     return(
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Landing />} />
+                <Route path='/author' element={<Author />} />
                 <Route path='/account_recovery' element={access ? <Landing /> : <Recovery />}/>
                 <Route path='/profile' element={ access ? <ProfilePage /> : <AccessError /> } />
                 <Route path='/forum' element={<Index logged={access} />} />

@@ -4,12 +4,12 @@ import { Row } from "react-bootstrap";
 import "./SubTopicDesign.css"
 
 
-function SubTopic(props){
+function SubTopic({catId}){
     const [subCats, updateSubCats] = React.useState([]);
 
     React.useEffect(()=>{
-        getSubCategories({catId: props.catId, updateSubs: updateSubCats});
-    }, []);
+        getSubCategories({catId: catId, updateSubs: updateSubCats});
+    }, [catId]);
 
     return (<>
             {subCats.map(sub=> 
