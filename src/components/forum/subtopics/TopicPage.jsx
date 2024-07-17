@@ -28,7 +28,7 @@ function TopicPage(){
                 <Button id="newThreadBtn" onClick={newThread}>New thread</Button>
                 <br /><br />
                 {threads.map(thread =>
-                    <Row className="thread" key={thread.threadid + thread.title}><a href={"/forum/topic/thread?id="+thread.threadid}>{thread.title}</a><h6>Started By: {thread.username}</h6> <hr /></Row>)}
+                    <Row className="thread" key={thread.threadid + thread.title}><a href={"/forum/topic/thread?id="+thread.threadid}>{thread.title}</a><label className="thread_author_date">Started on - {thread.creationdate} <br></br>by: {thread.username}</label><hr /></Row>)}
             </Container>
         );
 }

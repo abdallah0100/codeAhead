@@ -29,7 +29,7 @@ function getCatNameById(args){
 function getThreadsById(args){
     axios.post("http://localhost:4000/api/getThreads", { subcat: args.id })
     .then(result =>{ 
-        //console.log(result.data)
+        console.log(result.data)
        args.updateData(result.data)
     }).catch(err => err);
 }
