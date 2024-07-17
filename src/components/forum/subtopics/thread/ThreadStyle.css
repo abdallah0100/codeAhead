@@ -16,3 +16,7 @@
 #threadContent{
     height: 10rem;
 }
+
+.thread_date_label{
+    margin-top: -5em;
+}
