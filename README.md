@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# CodeAhead - Community & Discussion Platform
+CodeAhead is a private project that I decided to work on after completing a _Full Stack Bootcamp at WebAhead (Founders and Coders - Haifa)_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About CodeAhead
+CodeAhead is a forum platform withe the main focus to be a base for developers with different levels to discuss programming issues or new technologies.<br>
+Supported by _<a target="_blank" href="https://github.com/abdallah0100/codeAhead_api">CodeAhead_API</a>_, this is serving as a responsive user interface for the platform.
+#### Technologies
+- React, React-bootstrap, HTML, JavaScript, CSS, node.js
 
-## Available Scripts
+## Overview and Key Features
+<table>
+    <tr>
+        <th><center>Home Page Overview</center></th>
+        <th><center>Forum Overview</center></th>
+    </tr>
+    <br>
+    <tr>
+        <th><img width=600px src="https://gyazo.com/09027451bc117941733d6cf97d2446e6.gif"></th>
+        <th><img width=600px src="https://gyazo.com/fac8c22a1580f692a4d030521bc18581.gif"></th>
+    </tr>
+        <tr>
+        <th><center>Responsiveness</center></th>
+        <th><center>Limiting Access based on loggin</center></th>
+    </tr>
+    <br>
+    <tr>
+        <th><img width=600px src="https://gyazo.com/5458bcaa0219af621185e7e12d043e7d.gif"></th>
+        <th><img width=600px src="https://gyazo.com/54f473f5268b76ac6fa493424b5c5800.gif"></th>
+    </tr>
+</table>
+<br>
+<br>
 
-In the project directory, you can run:
+## Other noteable features
+<img width=500px src="https://gyazo.com/355fb64cc458d207c15573fb6f63c8c2.gif">
+<img width=500px src="https://gyazo.com/bdca2189e76b606619c401c912290b62.gif">
+<img width=500px src="https://gyazo.com/6461568de725a3a1fb4c201c717ecb89.png">
+<br>
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 
